@@ -98,3 +98,8 @@ footer p {
     width: 500px;
     border-radius: 10px;
 }
+
+#recipeName, #recipeOutput {
+    word-wrap: break-word;
+    white-space: normal;  /* Make sure text wraps correctly */
+}
